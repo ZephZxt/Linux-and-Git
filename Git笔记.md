@@ -22,3 +22,11 @@ git还保存了提交的历史记录。这也是为什么大多数提交记录�
 
 ![屏幕截图 2024-10-25 165907.png](https://www.helloimg.com/i/2024/10/26/671cba2269a62.png)
 
+## Git常用命令
+
+- git status :查看文件的状态
+- git remote -v :查看本地文件与远程仓库的连接
+- git branch :查看本地文件分支
+- git remote rm orign :删除与远程仓库的连接
+- git remote add Github git@github.com:ZephZxt/KOB-Project.git :建立与远程仓库的连接
+- git push :提交本地修改到远程仓库（注意远程仓库不能包含本地文件没有的改变，否则会提交失败，这时需要先从仓库pull）
